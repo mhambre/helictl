@@ -18,11 +18,11 @@ just gdb control
 Direct cargo build:
 
 ```bash
-cargo +nightly build -p helictl --target i686-unknown-linux-gnu
+cargo +nightly build -p helictl --target x86_64-unknown-linux-gnu
 ```
 
 Run directly after build:
 
 ```bash
-./target/i686-unknown-linux-gnu/debug/helictl
+./target/x86_64-unknown-linux-gnu/debug/helictl
 ```
